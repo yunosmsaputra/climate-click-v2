@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "dev": "vite --host",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npx gh-pages -d dist",
     "preview": "vite preview"
   },
   "lint-staged": {
@@ -30,6 +30,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier": "^3.4.2",

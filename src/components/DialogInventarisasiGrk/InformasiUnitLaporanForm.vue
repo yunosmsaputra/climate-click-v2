@@ -1,5 +1,5 @@
 <script setup>
-import { AmFormCol, AmFormLabel, AmFormRow, AmMonthPicker, AmSelectBox } from 'amyun-ui-vue-link'
+import { AmFormCol, AmFormLabel, AmFormRow, AmMonthPicker, AmSelectBox } from 'amyun-ui-vue'
 import TitleSection from '@/components/TitleSection.vue'
 import { userProfile } from '@/utils/constant.js'
 import IconFrameGreen from '@/assets/icons/icon-frame-green.vue'
