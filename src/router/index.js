@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
 import UserManagementPage from '@/views/user-management/User.vue'
 import inventarisasiGrk from '@/router/inventarisasi-grk.js'
 import MasterRouter from '@/router/master.js'
@@ -25,7 +25,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 })
 
